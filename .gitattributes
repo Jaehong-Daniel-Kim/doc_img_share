@@ -1,3 +1,5 @@
 prom_image.tar.gz filter=lfs diff=lfs merge=lfs -text
 jenkins:2.440.3-lts-rhel-ubi8-jdk11.gz filter=lfs diff=lfs merge=lfs -text
 nginx:alpine3.17-slim.gz filter=lfs diff=lfs merge=lfs -text
+postgres:15.0-alpine3.16.gz filter=lfs diff=lfs merge=lfs -text
+python:3.9.13-alpine3.14.gz filter=lfs diff=lfs merge=lfs -text
